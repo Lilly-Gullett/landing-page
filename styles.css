@@ -1,0 +1,94 @@
+/* General */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-weight: 800;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+button :active {
+    color: black;
+}
+
+/* Introduction */
+.introduction {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header h4, .text p {
+    font-size: 24px;
+    color: #F9faf8;
+}
+
+.opening {
+    display: flex;
+    padding: 100px 10%;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+}
+
+.opening img {
+    width: 400px;
+    height: 300px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#F9faf8;
+}
+
+.text {
+    width: 50%;
+}
+
+.text p {
+    padding: 10px 0;
+}
+
+/* About Kenji */
+
+
+/* Quotations */
+
+
+/* Call to action */
+
+
+/* Footer */
