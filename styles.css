@@ -114,7 +114,24 @@ h2 {
 }
 
 /* Quotations */
+.quotation {
+    background-color: #E5E7EB;
+    padding: 100px 10%;
+}
 
+blockquote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quotation p {
+    color:#1F2937;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
 
 /* Call to action */
 
